@@ -1,0 +1,17 @@
+Daily Accounts Manager - GitHub package
+
+IMPORTANT: GitHub's Upload files page does not extract ZIP archives.
+Do not upload this ZIP and expect the app source to appear automatically.
+
+Phone steps:
+1. Extract this ZIP in My Files / Downloads.
+2. Open the extracted folder.
+3. In GitHub repository, choose ... > Add file > Upload files.
+4. Select ALL files and folders inside the extracted folder (including hidden .github folder).
+   Upload the CONTENTS of this folder, not the outer folder itself.
+5. Commit changes.
+6. Open Actions > Build Daily Accounts Manager APK > Run workflow.
+7. If successful, open the run and download the artifact named DailyAccountsManager-debug-apk.
+
+If the phone file picker cannot select folders or hidden .github, use GitHub Codespaces/desktop Git instead.
+Build has not been verified on GitHub yet.
